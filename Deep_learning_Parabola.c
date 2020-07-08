@@ -4,19 +4,11 @@
 #include <time.h>
 #include <Deep_learning_Parabola.h>
 
-// g++ -I/home/greuber/Programmieren/Deep_Learning/Deep_Learning_Parabolar_2 Deep_learning.c
-
-// super tutorial : http://neuralnetworksanddeeplearning.com/chap4.html
-// https://stackoverflow.com/questions/18048561/backpropagation-all-outputs-tend-to-1
-// Tutorial video: https://www.youtube.com/watch?v=KkwX7FkLfug
-// https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/
 // gcc -I/home/greuber/Programmieren/Deep_Learning Deep_learning.c -lm
 // neuron[ineuron][ilayer]
 // w[thislayer][previouslayer][ilayer]
 // jin = layer that comes as input (e.g. l-1)
 // jout = layer 'output' (e.g. l)
-
-// TODO: Some weird stuff if too many outputs
 
 int main(void)
 {

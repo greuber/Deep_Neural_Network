@@ -3,18 +3,13 @@
 #include <math.h>
 #include <Deep_learning.h>
 
-// super tutorial : http://neuralnetworksanddeeplearning.com/chap4.html
-// https://stackoverflow.com/questions/18048561/backpropagation-all-outputs-tend-to-1
-// Tutorial video: https://www.youtube.com/watch?v=KkwX7FkLfug
-// https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/
 // gcc -I/home/greuber/Programmieren/Deep_Learning Deep_learning.c -lm
 // neuron[ineuron][ilayer]
 // w[thislayer][previouslayer][ilayer]
 // jin = layer that comes as input (e.g. l-1)
 // jout = layer 'output' (e.g. l)
 
-// TODO: Always converges to 1. This should be changed, go through the whole algorithm again ..
-// BIAS NEURON NOT TAKEN INTO ACCOUNT
+// todo: Bias neuron is currently not taken into account
 
 int main(void)
 {
